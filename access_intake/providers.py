@@ -13,6 +13,8 @@ from typing import Any, Protocol, runtime_checkable
 class Provider(Protocol):
     """Boundary between intake processing and the response source."""
 
+    response_source: str
+
     def extract(self, request: Mapping[str, Any]) -> dict[str, Any]:
         """Return a provider envelope or raise a provider exception."""
         ...
