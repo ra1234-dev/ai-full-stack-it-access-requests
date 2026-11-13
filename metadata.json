@@ -1,0 +1,93 @@
+{
+  "cli_version": "0.13.3",
+  "checkpoint_id": "01M7B3RMTMZFAYVPDKNA85G74J",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".gitignore",
+    "README.md",
+    "access_intake/extraction.py",
+    "access_intake/openai_provider.py",
+    "access_intake/providers.py",
+    "deliverables/.snapshots/4015e0bd28ba44e6a62cb2e5129cd92a/extractions.jsonl",
+    "deliverables/.snapshots/4015e0bd28ba44e6a62cb2e5129cd92a/queue.json",
+    "deliverables/.snapshots/5a52999e5da34f40a6107874ac9749ff/extractions.jsonl",
+    "deliverables/.snapshots/5a52999e5da34f40a6107874ac9749ff/queue.json",
+    "deliverables/.snapshots/b59f9a254d554b59a2cc3167abea52d5/extractions.jsonl",
+    "deliverables/.snapshots/b59f9a254d554b59a2cc3167abea52d5/queue.json",
+    "deliverables/accuracy.md",
+    "deliverables/current",
+    "deliverables/extractions.jsonl",
+    "deliverables/queue.json",
+    "deliverables/request-evidence.json",
+    "deliverables/verification.md",
+    "planning/plan.md",
+    "planning/repair-artifact-audit.txt",
+    "planning/repair-clean-checkout.txt",
+    "planning/repair-decisions.md",
+    "planning/repair-native-status-test-first.txt",
+    "planning/repair-test-run.txt",
+    "planning/validation-before-repair.md",
+    "planning/validation.md",
+    "tests/mock_responses/corpus-002.json",
+    "tests/mock_responses/corpus/IT-001.json",
+    "tests/mock_responses/corpus/IT-002.json",
+    "tests/mock_responses/corpus/IT-003.json",
+    "tests/mock_responses/corpus/IT-004.json",
+    "tests/mock_responses/corpus/IT-005.json",
+    "tests/mock_responses/corpus/IT-006.json",
+    "tests/mock_responses/corpus/IT-007.json",
+    "tests/mock_responses/corpus/IT-008.json",
+    "tests/mock_responses/corpus/IT-009.json",
+    "tests/mock_responses/corpus/IT-010.json",
+    "tests/mock_responses/corpus/IT-011.json",
+    "tests/mock_responses/corpus/IT-012.json",
+    "tests/mock_responses/corpus/IT-013.json",
+    "tests/mock_responses/corpus/IT-014.json",
+    "tests/mock_responses/corpus/IT-015.json",
+    "tests/mock_responses/corpus/IT-016.json",
+    "tests/mock_responses/corpus/IT-017.json",
+    "tests/mock_responses/corpus/IT-018.json",
+    "tests/mock_responses/corpus/IT-019.json",
+    "tests/mock_responses/corpus/IT-020.json",
+    "tests/test_application.py",
+    "tools/verify_checkout.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 233938,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 2738304,
+    "output_tokens": 34263,
+    "api_call_count": 33
+  },
+  "redaction": {
+    "replacements": 8,
+    "layers": {
+      "betterleaks": 0,
+      "connection_string": 0,
+      "credential_key": 0,
+      "credential_value": 4,
+      "credentialed_uri": 0,
+      "entropy": 5,
+      "key_context": 0,
+      "pii": 0,
+      "provider_token": 0,
+      "shell_stdin": 0
+    },
+    "pii": {
+      "EMAIL": 0,
+      "IP": 0,
+      "PHONE": 0
+    }
+  }
+}
