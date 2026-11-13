@@ -1,0 +1,132 @@
+{
+  "document_id": "IT-015.json",
+  "source_path": "materials/requests/IT-015.json",
+  "source_message": "IT-015 2026-10-22. Mia Davis - Learning: Please set new read access to Beacon in staging for the dates 2026-10-24 - 2026-10-26. My manager is Elena Park. I need to make sure that the sample conversations in the examples I'm building match up to the exercise handout for the Support onboarding workshop. (Correction: substitute the access dates in the above with 2026-10-29 - 2026-10-31. The workshop has been rescheduled due to a trainer availability change. Otherwise everything the same in the request.) I'd like to get the examples verified before we print the handout, because we'd have to redo the layout if we had to switch out screenshots later.",
+  "facts": {
+    "kind": "new",
+    "requester": "Mia Davis",
+    "team": "Learning",
+    "system": "Beacon",
+    "environment": "staging",
+    "permission": "read",
+    "start_date": "2026-10-29",
+    "end_date": "2026-10-31",
+    "manager": "Elena Park",
+    "request_id": "IT-015",
+    "request_date": "2026-10-22",
+    "business_purpose": "Verify workshop sample conversations against the exercise handout before printing."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "new"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Mia Davis"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Learning"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Beacon"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "staging"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "read"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "Correction: substitute the access dates in the above with 2026-10-29 - 2026-10-31."
+      ],
+      "reason": "The labelled correction replaces the earlier dates.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "Correction: substitute the access dates in the above with 2026-10-29 - 2026-10-31."
+      ],
+      "reason": "The labelled correction replaces the earlier dates.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Elena Park"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-015"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "sample conversations in the examples I'm building match up to the exercise handout",
+        "before we print the handout"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "sample conversations in the examples I'm building match up to the exercise handout",
+    "before we print the handout"
+  ],
+  "issue_fields": [],
+  "issue_quotes": [],
+  "route": {
+    "status": "review",
+    "owner": "System Owner",
+    "next_action": "review-request",
+    "policy_rule": 5
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

@@ -1,0 +1,132 @@
+{
+  "document_id": "IT-010.json",
+  "source_path": "materials/requests/IT-010.json",
+  "source_message": "I'm Ben Carter in Operations. This is a new access request (IT-010), date of submission is 2026-10-22. Would like to request read access to Ledger (production) starting 2026-10-27. My manager is Elena Park. What I'm looking to do is to compare the daily reconciliation report to the entries that the operations folks see as some of the totals have been hard to explain at the hand-over. I might be looking at it for quite a bit. Need to go through the first batch, talk to the report owner about what I see and then see if I need more examples. Haven't quite fixed on the end date. Please let me know if you need an investigation schedule before the window of access is set up.",
+  "facts": {
+    "kind": "new",
+    "requester": "Ben Carter",
+    "team": "Operations",
+    "system": "Ledger",
+    "environment": "production",
+    "permission": "read",
+    "start_date": "2026-10-27",
+    "end_date": null,
+    "manager": "Elena Park",
+    "request_id": "IT-010",
+    "request_date": "2026-10-22",
+    "business_purpose": "Compare reconciliation reports with operations entries to investigate unexplained totals."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "new"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Ben Carter"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Operations"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Ledger"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "production"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "read"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "2026-10-27"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [],
+      "reason": "No explicit absolute end_date fact is supplied in the complete source message; preserve null.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Elena Park"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-010"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "compare the daily reconciliation report to the entries",
+        "some of the totals have been hard to explain"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "compare the daily reconciliation report to the entries",
+    "some of the totals have been hard to explain"
+  ],
+  "issue_fields": [
+    "end_date"
+  ],
+  "issue_quotes": [],
+  "route": {
+    "status": "needs-information",
+    "owner": "IT Service Desk",
+    "next_action": "clarify",
+    "policy_rule": 3
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

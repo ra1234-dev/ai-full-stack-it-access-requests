@@ -1,0 +1,135 @@
+{
+  "document_id": "IT-004.json",
+  "source_path": "materials/requests/IT-004.json",
+  "source_message": "IT-004 submitted on 2026-10-22 by Theo Malik, Quality Engineering. Please grant me new read access in staging to Atlas from 2026-10-23 to 2026-10-30. Nia Patel is my manager. I'm trying to understand why the nightly quality report shows different counts from the release checklist. This request is for the production environment. I'm trying to look into the records for the failed run. I would like to send out a brief summary to the engineers responsible for the report. Dates are during the current release cycle and follow up after cycle completion.",
+  "facts": {
+    "kind": "new",
+    "requester": "Theo Malik",
+    "team": "Quality Engineering",
+    "system": "Atlas",
+    "environment": null,
+    "permission": "read",
+    "start_date": "2026-10-23",
+    "end_date": "2026-10-30",
+    "manager": "Nia Patel",
+    "request_id": "IT-004",
+    "request_date": "2026-10-22",
+    "business_purpose": "Investigate quality report count differences and summarize failed-run findings."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "new"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Theo Malik"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Quality Engineering"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Atlas"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "read access in staging",
+        "This request is for the production environment"
+      ],
+      "reason": "Conflicting environments without a labelled correction remain unresolved.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "read"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "2026-10-23"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "2026-10-30"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Nia Patel"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-004"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "nightly quality report shows different counts from the release checklist",
+        "look into the records for the failed run"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "nightly quality report shows different counts from the release checklist",
+    "look into the records for the failed run"
+  ],
+  "issue_fields": [
+    "environment"
+  ],
+  "issue_quotes": [],
+  "route": {
+    "status": "needs-information",
+    "owner": "IT Service Desk",
+    "next_action": "clarify",
+    "policy_rule": 3
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

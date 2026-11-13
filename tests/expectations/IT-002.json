@@ -1,0 +1,132 @@
+{
+  "document_id": "IT-002.json",
+  "source_path": "materials/requests/IT-002.json",
+  "source_message": "Request IT-002, 2026-10-22 - Owen Reed in Payments requesting new write access to Ledger in production. Needed during 2026-10-24 and 2026-10-25. My manager is Elena Park.\n\nWe have several settlement entries associated with the wrong reconciliation batch. Operations has prepared the replacement values. I'll need to make the corrections at the time of our scheduled maintenance and then check the totals against the settlement report. I'll be available later to review the changes with the team. It's for this particular cycle of reconciliations, so please make the temporary access during those times.",
+  "facts": {
+    "kind": "new",
+    "requester": "Owen Reed",
+    "team": "Payments",
+    "system": "Ledger",
+    "environment": "production",
+    "permission": "write",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-25",
+    "manager": "Elena Park",
+    "request_id": "IT-002",
+    "request_date": "2026-10-22",
+    "business_purpose": "Correct settlement entries and check totals against the settlement report during maintenance."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "new"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Owen Reed"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Payments"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Ledger"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "production"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "write"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "2026-10-24"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "2026-10-25"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Elena Park"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-002"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "make the corrections at the time of our scheduled maintenance",
+        "check the totals against the settlement report"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "make the corrections at the time of our scheduled maintenance",
+    "check the totals against the settlement report"
+  ],
+  "issue_fields": [],
+  "issue_quotes": [],
+  "route": {
+    "status": "review",
+    "owner": "Security Review",
+    "next_action": "review-risk-then-owner",
+    "policy_rule": 4
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

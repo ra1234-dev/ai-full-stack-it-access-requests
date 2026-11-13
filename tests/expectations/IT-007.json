@@ -1,0 +1,133 @@
+{
+  "document_id": "IT-007.json",
+  "source_path": "materials/requests/IT-007.json",
+  "source_message": "IT-007 2026-10-22 - Grace Tan / Developer Experience\n\nI have current (read only) access to Forge (staging) and would like to transition to (write) from 2026-10-24 to 2026-10-28. My manager is Nia Patel.\n\nWe're updating starter project templates, so i want to save our changes for the templates. Also confirming example pipelines are still working.\n\nThe changes involve fixing the sample configuration + testing on a new project. I'll provide a summary of what templates were modified for the team. (so they can reference this during next onboarding session)",
+  "facts": {
+    "kind": "change",
+    "requester": "Grace Tan",
+    "team": "Developer Experience",
+    "system": "Forge",
+    "environment": "staging",
+    "permission": "write",
+    "start_date": "2026-10-24",
+    "end_date": "2026-10-28",
+    "manager": "Nia Patel",
+    "request_id": "IT-007",
+    "request_date": "2026-10-22",
+    "business_purpose": "Update starter project templates and verify example pipelines."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "current (read only) access",
+        "transition to (write)"
+      ],
+      "reason": "Changing existing access means change; requested new permission is write.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Grace Tan"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Developer Experience"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Forge"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "staging"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "write"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "2026-10-24"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "2026-10-28"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Nia Patel"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-007"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "updating starter project templates",
+        "confirming example pipelines are still working"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "updating starter project templates",
+    "confirming example pipelines are still working"
+  ],
+  "issue_fields": [],
+  "issue_quotes": [],
+  "route": {
+    "status": "review",
+    "owner": "Security Review",
+    "next_action": "review-risk-then-owner",
+    "policy_rule": 4
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

@@ -1,0 +1,140 @@
+{
+  "document_id": "IT-001-paraphrase.json",
+  "source_path": "tests/fixtures/exports/IT-001-paraphrase.json",
+  "source_message": "Request IT-001 was filed on 2026-10-22 by Maya Chen in Analytics. For a new access window beginning 2026-10-23 and ending 2026-11-06, I need permission to read Atlas in staging. Priya Shah is my manager. Before the next reporting cycle, I will check the weekly conversion dashboard after event definition changes and compare its totals with our spreadsheet.",
+  "facts": {
+    "kind": "new",
+    "requester": "Maya Chen",
+    "team": "Analytics",
+    "system": "Atlas",
+    "environment": "staging",
+    "permission": "read",
+    "start_date": "2026-10-23",
+    "end_date": "2026-11-06",
+    "manager": "Priya Shah",
+    "request_id": "IT-001",
+    "request_date": "2026-10-22",
+    "business_purpose": "Check the dashboard after event definition changes and compare its totals with the spreadsheet."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "new"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Maya Chen"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Analytics"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Atlas"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "staging"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "read"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "2026-10-23"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "2026-11-06"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Priya Shah"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-001"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "check the weekly conversion dashboard after event definition changes",
+        "compare its totals with our spreadsheet"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "check the weekly conversion dashboard after event definition changes",
+    "compare its totals with our spreadsheet"
+  ],
+  "issue_fields": [],
+  "issue_quotes": [],
+  "route": {
+    "status": "review",
+    "owner": "System Owner",
+    "next_action": "review-request",
+    "policy_rule": 5
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output.",
+  "variants": {
+    "IT-001-paraphrase-200.json": {
+      "source_path": "tests/fixtures/exports/IT-001-paraphrase-200.json",
+      "source_message": "Request IT-001 was filed on 2026-10-22 by Maya Chen in Analytics. For a new access window beginning 2026-10-23 and ending 2026-11-06, I need permission to read Atlas in staging. Priya Shah is my manager. Before the next reporting cycle, I will check the weekly conversion dashboard after event definition changes and compare its totals with our spreadsheet. This note provides background context for the same task and adds no further request details. This note provides background context for the same task and adds no further request details. This note provides background context for the same task and adds no further request details. This note provides background context for the same task and adds no further request details. This note provides background context for the same task and adds no further request details. This note provides background context for the same task and adds no further request details. This note provides background context for the same task and adds no further request details. This note provides background context for the same task and adds no further request details. This note provides background context for the same task and adds no further request details. This note provides background context for the same",
+      "neutral_suffix": "This note provides background context for the same task and adds no further request details.",
+      "expected_word_count": 200
+    }
+  }
+}

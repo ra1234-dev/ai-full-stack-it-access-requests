@@ -1,0 +1,132 @@
+{
+  "document_id": "IT-018.json",
+  "source_path": "materials/requests/IT-018.json",
+  "source_message": "Could you please record IT-018, submitted on 2026-10-22? I (Daniel Wright in Data Engineering) would like to request new read access to Atlas in staging for the dates 2026-10-27 through 2026-11-03. My manager is Priya Shah.\n\nI am reviewing our sample dataset we use during our weekly analyst workshop. Last time, people noticed a discrepancy between the totals of the sample and what is in the handout. I'd like to try and find the source of the difference prior to the next workshop. I'd like to update example queries (if need be) and provide a brief description to the workshop facilitator that they can give to folks who ask questions. I'm working over two workshop preparations, so that is why I'm asking for access to the following week. I will leave my notes next to the example queries so that the next person working on the workshop preparation can see what I was looking at.",
+  "facts": {
+    "kind": "new",
+    "requester": "Daniel Wright",
+    "team": "Data Engineering",
+    "system": "Atlas",
+    "environment": "staging",
+    "permission": "read",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-03",
+    "manager": "Priya Shah",
+    "request_id": "IT-018",
+    "request_date": "2026-10-22",
+    "business_purpose": "Investigate workshop dataset total discrepancies and prepare notes or example query updates."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "new"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Daniel Wright"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Data Engineering"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Atlas"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "staging"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "read"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "2026-10-27"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "2026-11-03"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Priya Shah"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-018"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "find the source of the difference prior to the next workshop",
+        "update example queries"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "find the source of the difference prior to the next workshop",
+    "update example queries"
+  ],
+  "issue_fields": [],
+  "issue_quotes": [],
+  "route": {
+    "status": "review",
+    "owner": "System Owner",
+    "next_action": "review-request",
+    "policy_rule": 5
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

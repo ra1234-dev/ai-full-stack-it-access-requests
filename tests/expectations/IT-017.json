@@ -1,0 +1,127 @@
+{
+  "document_id": "IT-017.json",
+  "source_path": "materials/requests/IT-017.json",
+  "source_message": "IT-017 was submitted by Chloe Martin from Communications on 2026-10-22. Where can we find the access request form? I noticed the link we have in our onboarding docs goes to an old page. I've had a few new starters ask me which link they should bookmark. I'm wondering if you can let me know the form URL. And who is responsible for that bit of onboarding? I want to update the document before the next bunch start so they're all doing the same thing.",
+  "facts": {
+    "kind": "other",
+    "requester": "Chloe Martin",
+    "team": "Communications",
+    "system": null,
+    "environment": null,
+    "permission": null,
+    "start_date": null,
+    "end_date": null,
+    "manager": null,
+    "request_id": "IT-017",
+    "request_date": "2026-10-22",
+    "business_purpose": "Find the current access request form URL and update onboarding documentation."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "Where can we find the access request form?"
+      ],
+      "reason": "Informational inquiry rather than a new/change/withdrawal access request.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Chloe Martin"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Communications"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [],
+      "reason": "No explicit absolute system fact is supplied in the complete source message; preserve null.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [],
+      "reason": "No explicit absolute environment fact is supplied in the complete source message; preserve null.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [],
+      "reason": "No explicit absolute permission fact is supplied in the complete source message; preserve null.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [],
+      "reason": "No explicit absolute start_date fact is supplied in the complete source message; preserve null.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [],
+      "reason": "No explicit absolute end_date fact is supplied in the complete source message; preserve null.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [],
+      "reason": "No explicit absolute manager fact is supplied in the complete source message; preserve null.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-017"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "let me know the form URL",
+        "update the document"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "let me know the form URL",
+    "update the document"
+  ],
+  "issue_fields": [
+    "system",
+    "environment",
+    "permission",
+    "start_date",
+    "end_date",
+    "manager"
+  ],
+  "issue_quotes": [],
+  "route": {
+    "status": "needs-information",
+    "owner": "IT Service Desk",
+    "next_action": "clarify",
+    "policy_rule": 3
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

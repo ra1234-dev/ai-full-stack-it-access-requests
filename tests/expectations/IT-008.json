@@ -1,0 +1,130 @@
+{
+  "document_id": "IT-008.json",
+  "source_path": "materials/requests/IT-008.json",
+  "source_message": "For IT-008, submitted date 2026-10-22, Noah Kim from Finance is asking for new read access to Atlas in production from 2026-10-25 to 2026-10-31 (Priya Shah is my manager). I am trying to check the sample billing total vs forecasting workbook before month end rehearsal. (Correction: environment is actually staging. Previous entry used production. Our rehearsal uses sample billing dataset in staging. The rest of the request remains the same) Permission request and dates are the same. When I first wrote this, I'd copied the environment from some old note. When I was reading through rehearsal instructions I noticed the mistake.",
+  "facts": {
+    "kind": "new",
+    "requester": "Noah Kim",
+    "team": "Finance",
+    "system": "Atlas",
+    "environment": "staging",
+    "permission": "read",
+    "start_date": "2026-10-25",
+    "end_date": "2026-10-31",
+    "manager": "Priya Shah",
+    "request_id": "IT-008",
+    "request_date": "2026-10-22",
+    "business_purpose": "Compare sample billing totals with the forecasting workbook before rehearsal."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "new"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Noah Kim"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Finance"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Atlas"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "Correction: environment is actually staging. Previous entry used production."
+      ],
+      "reason": "The explicitly labelled correction replaces production.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "read"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "2026-10-25"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "2026-10-31"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Priya Shah"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-008"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "check the sample billing total vs forecasting workbook before month end rehearsal"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "check the sample billing total vs forecasting workbook before month end rehearsal"
+  ],
+  "issue_fields": [],
+  "issue_quotes": [],
+  "route": {
+    "status": "review",
+    "owner": "System Owner",
+    "next_action": "review-request",
+    "policy_rule": 5
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

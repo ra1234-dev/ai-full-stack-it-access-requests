@@ -1,0 +1,132 @@
+{
+  "document_id": "IT-019.json",
+  "source_path": "materials/requests/IT-019.json",
+  "source_message": "Sara Ahmed, Customer Operations. This is IT-019, submitted 2026-10-22. I need to change my current Beacon access in production from write to read from 2026-10-28 to 2026-11-04. My manager is Elena Park. I am transitioning from updating accounts to reviewing the daily exception report as my colleague will now update the accounts. However, I need to view the records that make up the exception report and to explain any unusual entries when I hand it over. I need to have read access to accomplish this for the above timeframe. I put the prior permission so that they can know exactly what has changed.",
+  "facts": {
+    "kind": "change",
+    "requester": "Sara Ahmed",
+    "team": "Customer Operations",
+    "system": "Beacon",
+    "environment": "production",
+    "permission": "read",
+    "start_date": "2026-10-28",
+    "end_date": "2026-11-04",
+    "manager": "Elena Park",
+    "request_id": "IT-019",
+    "request_date": "2026-10-22",
+    "business_purpose": "Review exception report records and explain unusual entries during handover."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "change"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Sara Ahmed"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Customer Operations"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Beacon"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "production"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "read"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "2026-10-28"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "2026-11-04"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Elena Park"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-019"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "reviewing the daily exception report",
+        "explain any unusual entries when I hand it over"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "reviewing the daily exception report",
+    "explain any unusual entries when I hand it over"
+  ],
+  "issue_fields": [],
+  "issue_quotes": [],
+  "route": {
+    "status": "review",
+    "owner": "Security Review",
+    "next_action": "review-risk-then-owner",
+    "policy_rule": 4
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

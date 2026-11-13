@@ -1,0 +1,148 @@
+{
+  "document_id": "IT-014.json",
+  "source_path": "materials/requests/IT-014.json",
+  "source_message": "IT-014. 2026-10-22 request. Lucas Brown in Sales Operations. New read access for Atlas in staging. Start date 2026-11-05. End date 2026-11-02. Manager is Priya Shah. I'm giving a demo of the new territory report for sales leads. Trying to match up the sample territories with the handover notes. Also want to make sure I understand the columns for the demo. I just copied above dates from my planning sheet. This email should be the request record.",
+  "facts": {
+    "kind": "new",
+    "requester": "Lucas Brown",
+    "team": "Sales Operations",
+    "system": "Atlas",
+    "environment": "staging",
+    "permission": "read",
+    "start_date": {
+      "pending": "Q-18",
+      "alternatives": [
+        "2026-11-05",
+        null
+      ]
+    },
+    "end_date": {
+      "pending": "Q-18",
+      "alternatives": [
+        "2026-11-02",
+        null
+      ]
+    },
+    "manager": "Priya Shah",
+    "request_id": "IT-014",
+    "request_date": "2026-10-22",
+    "business_purpose": "Prepare a territory report demo and compare sample territories with handover notes."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "New read access"
+      ],
+      "reason": "New denotes new access.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Lucas Brown"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Sales Operations"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Atlas"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "staging"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "read"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "Start date 2026-11-05. End date 2026-11-02."
+      ],
+      "reason": "Q-18 pending: retain explicit reversed dates or null; never swap.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "Start date 2026-11-05. End date 2026-11-02."
+      ],
+      "reason": "Q-18 pending: retain explicit reversed dates or null; never swap.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Priya Shah"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-014"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "giving a demo of the new territory report for sales leads",
+        "match up the sample territories with the handover notes"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "giving a demo of the new territory report for sales leads",
+    "match up the sample territories with the handover notes"
+  ],
+  "issue_fields": [
+    "start_date",
+    "end_date",
+    "date_order"
+  ],
+  "issue_quotes": [],
+  "route": {
+    "status": "needs-information",
+    "owner": "IT Service Desk",
+    "next_action": "clarify",
+    "policy_rule": 3
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

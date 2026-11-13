@@ -1,0 +1,135 @@
+{
+  "document_id": "IT-011.json",
+  "source_path": "materials/requests/IT-011.json",
+  "source_message": "IT-011, 2026-10-22: Research (Zoe Adams) - I need new read access to Atlas in staging for next Monday - Friday. Priya Shah is my boss. I'm looking at sample experiment records to get ready for our team walkthrough. The walkthrough covers how the experiment records relate to the charts. I'm looking to find confusing examples before the walkthrough.",
+  "facts": {
+    "kind": "new",
+    "requester": "Zoe Adams",
+    "team": "Research",
+    "system": "Atlas",
+    "environment": "staging",
+    "permission": "read",
+    "start_date": null,
+    "end_date": null,
+    "manager": "Priya Shah",
+    "request_id": "IT-011",
+    "request_date": "2026-10-22",
+    "business_purpose": "Review sample experiment records and find confusing examples before the team walkthrough."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "new"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Zoe Adams"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Research"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Atlas"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "staging"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "read"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "next Monday - Friday"
+      ],
+      "reason": "Relative dates remain unresolved; do not infer from export metadata.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "next Monday - Friday"
+      ],
+      "reason": "Relative dates remain unresolved; do not infer from export metadata.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "Priya Shah"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-011"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "sample experiment records to get ready for our team walkthrough",
+        "find confusing examples before the walkthrough"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "sample experiment records to get ready for our team walkthrough",
+    "find confusing examples before the walkthrough"
+  ],
+  "issue_fields": [
+    "start_date",
+    "end_date"
+  ],
+  "issue_quotes": [],
+  "route": {
+    "status": "needs-information",
+    "owner": "IT Service Desk",
+    "next_action": "clarify",
+    "policy_rule": 3
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}

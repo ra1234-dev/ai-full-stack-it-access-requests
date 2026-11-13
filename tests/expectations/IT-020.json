@@ -1,0 +1,135 @@
+{
+  "document_id": "IT-020.json",
+  "source_path": "materials/requests/IT-020.json",
+  "source_message": "IT-020. Dated 2026-10-22. I'm Ethan Clark with Product. I need new Atlas read access to staging from 2026-10-29 to 2026-11-02. I want to look at some sample usage records before I draft the summary on feature adoption. My manager is Priya Shah. The manager for this request is Elena Park. Those are the names I wrote down from notes during the team handover. I copied them exactly as I saw them. The summary will compare the sample records with the feature list and point out where labels make the activity difficult to interpret. I would like this request logged in with the details above so we can follow up prior to the writing session.",
+  "facts": {
+    "kind": "new",
+    "requester": "Ethan Clark",
+    "team": "Product",
+    "system": "Atlas",
+    "environment": "staging",
+    "permission": "read",
+    "start_date": "2026-10-29",
+    "end_date": "2026-11-02",
+    "manager": null,
+    "request_id": "IT-020",
+    "request_date": "2026-10-22",
+    "business_purpose": "Review sample usage records for a feature adoption summary and identify confusing labels."
+  },
+  "annotations": {
+    "kind": {
+      "quotes": [
+        "new"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "requester": {
+      "quotes": [
+        "Ethan Clark"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "team": {
+      "quotes": [
+        "Product"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "system": {
+      "quotes": [
+        "Atlas"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "environment": {
+      "quotes": [
+        "staging"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "permission": {
+      "quotes": [
+        "read"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "start_date": {
+      "quotes": [
+        "2026-10-29"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "end_date": {
+      "quotes": [
+        "2026-11-02"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "manager": {
+      "quotes": [
+        "My manager is Priya Shah.",
+        "The manager for this request is Elena Park."
+      ],
+      "reason": "Conflicting manager names without a correction remain unresolved.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_id": {
+      "quotes": [
+        "IT-020"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "request_date": {
+      "quotes": [
+        "2026-10-22"
+      ],
+      "reason": "Explicit source fact.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    },
+    "business_purpose": {
+      "quotes": [
+        "draft the summary on feature adoption",
+        "compare the sample records with the feature list"
+      ],
+      "reason": "Faithful purpose summary; equivalent supported wording is acceptable.",
+      "source": "message",
+      "policy": "materials/office-policy.md#extracted-facts"
+    }
+  },
+  "purpose_rubric": [
+    "draft the summary on feature adoption",
+    "compare the sample records with the feature list"
+  ],
+  "issue_fields": [
+    "manager"
+  ],
+  "issue_quotes": [],
+  "route": {
+    "status": "needs-information",
+    "owner": "IT Service Desk",
+    "next_action": "clarify",
+    "policy_rule": 3
+  },
+  "policy_source": "materials/office-policy.md",
+  "basis": "Independently authored from source message and policy; not copied from provider output."
+}
