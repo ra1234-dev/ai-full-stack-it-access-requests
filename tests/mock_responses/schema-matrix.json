@@ -1,0 +1,3991 @@
+{
+  "basis": "snapshot.schema.json: required fourteen properties; string/null scalars; exact enums; string arrays; no extras. Schema-only cases intentionally do not assert source semantics.",
+  "cases": [
+    {
+      "name": "all fourteen properties",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": null
+    },
+    {
+      "name": "missing request_id",
+      "extraction": {
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_id"
+    },
+    {
+      "name": "missing request_date",
+      "extraction": {
+        "request_id": "IT-001",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_date"
+    },
+    {
+      "name": "missing kind",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "missing requester",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "requester"
+    },
+    {
+      "name": "missing team",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "team"
+    },
+    {
+      "name": "missing system",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "system"
+    },
+    {
+      "name": "missing environment",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "missing permission",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "missing business_purpose",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "business_purpose"
+    },
+    {
+      "name": "missing start_date",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "start_date"
+    },
+    {
+      "name": "missing end_date",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "end_date"
+    },
+    {
+      "name": "missing manager",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "manager"
+    },
+    {
+      "name": "missing supporting_quotes",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "missing issues",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ]
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "request_id wrong integer",
+      "extraction": {
+        "request_id": 7,
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_id"
+    },
+    {
+      "name": "request_id wrong number",
+      "extraction": {
+        "request_id": 1.5,
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_id"
+    },
+    {
+      "name": "request_id wrong boolean",
+      "extraction": {
+        "request_id": true,
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_id"
+    },
+    {
+      "name": "request_id wrong array",
+      "extraction": {
+        "request_id": [],
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_id"
+    },
+    {
+      "name": "request_id wrong object",
+      "extraction": {
+        "request_id": {},
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_id"
+    },
+    {
+      "name": "request_id allowed 'literal text'",
+      "extraction": {
+        "request_id": "literal text",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "request_id"
+    },
+    {
+      "name": "request_id allowed None",
+      "extraction": {
+        "request_id": null,
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "request_id"
+    },
+    {
+      "name": "request_date wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": 7,
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_date"
+    },
+    {
+      "name": "request_date wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": 1.5,
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_date"
+    },
+    {
+      "name": "request_date wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": true,
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_date"
+    },
+    {
+      "name": "request_date wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": [],
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_date"
+    },
+    {
+      "name": "request_date wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": {},
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "request_date"
+    },
+    {
+      "name": "request_date allowed 'literal text'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "literal text",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "request_date"
+    },
+    {
+      "name": "request_date allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": null,
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "request_date"
+    },
+    {
+      "name": "kind wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": 7,
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "kind wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": 1.5,
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "kind wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": true,
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "kind wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": [],
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "kind wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": {},
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "kind allowed 'new'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "kind"
+    },
+    {
+      "name": "kind allowed 'change'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "change",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "kind"
+    },
+    {
+      "name": "kind allowed 'withdrawal'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "withdrawal",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "kind"
+    },
+    {
+      "name": "kind allowed 'other'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "other",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "kind"
+    },
+    {
+      "name": "kind allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": null,
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "kind"
+    },
+    {
+      "name": "requester wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": 7,
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "requester"
+    },
+    {
+      "name": "requester wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": 1.5,
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "requester"
+    },
+    {
+      "name": "requester wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": true,
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "requester"
+    },
+    {
+      "name": "requester wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": [],
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "requester"
+    },
+    {
+      "name": "requester wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": {},
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "requester"
+    },
+    {
+      "name": "requester allowed 'literal text'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "literal text",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "requester"
+    },
+    {
+      "name": "requester allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": null,
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "requester"
+    },
+    {
+      "name": "team wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": 7,
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "team"
+    },
+    {
+      "name": "team wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": 1.5,
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "team"
+    },
+    {
+      "name": "team wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": true,
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "team"
+    },
+    {
+      "name": "team wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": [],
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "team"
+    },
+    {
+      "name": "team wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": {},
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "team"
+    },
+    {
+      "name": "team allowed 'literal text'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "literal text",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "team"
+    },
+    {
+      "name": "team allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": null,
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "team"
+    },
+    {
+      "name": "system wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": 7,
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "system"
+    },
+    {
+      "name": "system wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": 1.5,
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "system"
+    },
+    {
+      "name": "system wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": true,
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "system"
+    },
+    {
+      "name": "system wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": [],
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "system"
+    },
+    {
+      "name": "system wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": {},
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "system"
+    },
+    {
+      "name": "system allowed 'literal text'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "literal text",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "system"
+    },
+    {
+      "name": "system allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": null,
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "system"
+    },
+    {
+      "name": "environment wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": 7,
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "environment wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": 1.5,
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "environment wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": true,
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "environment wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": [],
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "environment wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": {},
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "environment allowed 'staging'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "environment"
+    },
+    {
+      "name": "environment allowed 'production'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "production",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "environment"
+    },
+    {
+      "name": "environment allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": null,
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "environment"
+    },
+    {
+      "name": "permission wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": 7,
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "permission wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": 1.5,
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "permission wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": true,
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "permission wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": [],
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "permission wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": {},
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "permission allowed 'read'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "permission"
+    },
+    {
+      "name": "permission allowed 'write'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "write",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "permission"
+    },
+    {
+      "name": "permission allowed 'admin'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "admin",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "permission"
+    },
+    {
+      "name": "permission allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": null,
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "permission"
+    },
+    {
+      "name": "business_purpose wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": 7,
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "business_purpose"
+    },
+    {
+      "name": "business_purpose wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": 1.5,
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "business_purpose"
+    },
+    {
+      "name": "business_purpose wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": true,
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "business_purpose"
+    },
+    {
+      "name": "business_purpose wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": [],
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "business_purpose"
+    },
+    {
+      "name": "business_purpose wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": {},
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "business_purpose"
+    },
+    {
+      "name": "business_purpose allowed 'literal text'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "literal text",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "business_purpose"
+    },
+    {
+      "name": "business_purpose allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": null,
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "business_purpose"
+    },
+    {
+      "name": "start_date wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": 7,
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "start_date"
+    },
+    {
+      "name": "start_date wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": 1.5,
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "start_date"
+    },
+    {
+      "name": "start_date wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": true,
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "start_date"
+    },
+    {
+      "name": "start_date wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": [],
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "start_date"
+    },
+    {
+      "name": "start_date wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": {},
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "start_date"
+    },
+    {
+      "name": "start_date allowed 'literal text'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "literal text",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "start_date"
+    },
+    {
+      "name": "start_date allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": null,
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "start_date"
+    },
+    {
+      "name": "end_date wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": 7,
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "end_date"
+    },
+    {
+      "name": "end_date wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": 1.5,
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "end_date"
+    },
+    {
+      "name": "end_date wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": true,
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "end_date"
+    },
+    {
+      "name": "end_date wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": [],
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "end_date"
+    },
+    {
+      "name": "end_date wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": {},
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "end_date"
+    },
+    {
+      "name": "end_date allowed 'literal text'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "literal text",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "end_date"
+    },
+    {
+      "name": "end_date allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": null,
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "end_date"
+    },
+    {
+      "name": "manager wrong integer",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": 7,
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "manager"
+    },
+    {
+      "name": "manager wrong number",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": 1.5,
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "manager"
+    },
+    {
+      "name": "manager wrong boolean",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": true,
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "manager"
+    },
+    {
+      "name": "manager wrong array",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": [],
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "manager"
+    },
+    {
+      "name": "manager wrong object",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": {},
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "manager"
+    },
+    {
+      "name": "manager allowed 'literal text'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "literal text",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "manager"
+    },
+    {
+      "name": "manager allowed None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": null,
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "manager"
+    },
+    {
+      "name": "kind invalid enum 'unsupported'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "unsupported",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "kind invalid enum 'READ'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "READ",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "kind invalid enum 'prod'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "prod",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "kind invalid enum ''",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "kind invalid enum False",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": false,
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "kind"
+    },
+    {
+      "name": "environment invalid enum 'unsupported'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "unsupported",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "environment invalid enum 'READ'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "READ",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "environment invalid enum 'prod'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "prod",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "environment invalid enum ''",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "environment invalid enum False",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": false,
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "environment"
+    },
+    {
+      "name": "permission invalid enum 'unsupported'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "unsupported",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "permission invalid enum 'READ'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "READ",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "permission invalid enum 'prod'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "prod",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "permission invalid enum ''",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "permission invalid enum False",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": false,
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "permission"
+    },
+    {
+      "name": "supporting_quotes invalid array None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": null,
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes invalid array 'text'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": "text",
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes invalid array {}",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": {},
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes invalid array 42",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": 42,
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes invalid array True",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": true,
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes invalid array [None]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          null
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes invalid array [False]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          false
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes invalid array [42]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          42
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes invalid array [{}]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          {}
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes invalid array [[]]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          []
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes invalid array ['valid', 42]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "valid",
+          42
+        ],
+        "issues": []
+      },
+      "valid": false,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes valid string array []",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [],
+        "issues": []
+      },
+      "valid": true,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes valid string array ['one']",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "one"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "supporting_quotes valid string array ['one', 'two']",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "one",
+          "two"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "supporting_quotes"
+    },
+    {
+      "name": "issues invalid array None",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": null
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues invalid array 'text'",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": "text"
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues invalid array {}",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": {}
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues invalid array 42",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": 42
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues invalid array True",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": true
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues invalid array [None]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": [
+          null
+        ]
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues invalid array [False]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": [
+          false
+        ]
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues invalid array [42]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": [
+          42
+        ]
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues invalid array [{}]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": [
+          {}
+        ]
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues invalid array [[]]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": [
+          []
+        ]
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues invalid array ['valid', 42]",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": [
+          "valid",
+          42
+        ]
+      },
+      "valid": false,
+      "field": "issues"
+    },
+    {
+      "name": "issues valid string array []",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": []
+      },
+      "valid": true,
+      "field": "issues"
+    },
+    {
+      "name": "issues valid string array ['one']",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": [
+          "one"
+        ]
+      },
+      "valid": true,
+      "field": "issues"
+    },
+    {
+      "name": "issues valid string array ['one', 'two']",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": [
+          "one",
+          "two"
+        ]
+      },
+      "valid": true,
+      "field": "issues"
+    },
+    {
+      "name": "unknown property",
+      "extraction": {
+        "request_id": "IT-001",
+        "request_date": "2026-10-22",
+        "kind": "new",
+        "requester": "Maya Chen",
+        "team": "Analytics",
+        "system": "Atlas",
+        "environment": "staging",
+        "permission": "read",
+        "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+        "start_date": "2026-10-23",
+        "end_date": "2026-11-06",
+        "manager": "Priya Shah",
+        "supporting_quotes": [
+          "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+          "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+          "My manager is Priya Shah.",
+          "checking the weekly conversion dashboard with the new event definition changes",
+          "check the totals against our spreadsheet"
+        ],
+        "issues": [],
+        "approved": true
+      },
+      "valid": false,
+      "field": "approved"
+    },
+    {
+      "name": "nonobject None",
+      "extraction": null,
+      "valid": false,
+      "field": null
+    },
+    {
+      "name": "nonobject []",
+      "extraction": [],
+      "valid": false,
+      "field": null
+    },
+    {
+      "name": "nonobject True",
+      "extraction": true,
+      "valid": false,
+      "field": null
+    },
+    {
+      "name": "nonobject 'text'",
+      "extraction": "text",
+      "valid": false,
+      "field": null
+    },
+    {
+      "name": "nonobject 42",
+      "extraction": 42,
+      "valid": false,
+      "field": null
+    }
+  ]
+}

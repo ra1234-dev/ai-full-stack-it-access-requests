@@ -1,0 +1,8 @@
+{
+  "response_source": "mock",
+  "status": "incomplete",
+  "output_text": "{\"request_id\":",
+  "incomplete_details": {
+    "reason": "max_output_tokens"
+  }
+}

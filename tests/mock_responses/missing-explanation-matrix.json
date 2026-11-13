@@ -1,0 +1,1169 @@
+{
+  "basis": "Policy: represent absent or unresolved scalar values as null and explain each missing or conflicting fact in issues. No exact issue wording required.",
+  "cases": [
+    {
+      "name": "request_id explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": null,
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "request_id is unresolved in this response."
+          ]
+        }
+      },
+      "field": "request_id",
+      "valid": true
+    },
+    {
+      "name": "request_id silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": null,
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "request_id",
+      "valid": false
+    },
+    {
+      "name": "request_id unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": null,
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "request_id",
+      "valid": false
+    },
+    {
+      "name": "request_date explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": null,
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "request_date is unresolved in this response."
+          ]
+        }
+      },
+      "field": "request_date",
+      "valid": true
+    },
+    {
+      "name": "request_date silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": null,
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "request_date",
+      "valid": false
+    },
+    {
+      "name": "request_date unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": null,
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "request_date",
+      "valid": false
+    },
+    {
+      "name": "kind explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": null,
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "kind is unresolved in this response."
+          ]
+        }
+      },
+      "field": "kind",
+      "valid": true
+    },
+    {
+      "name": "kind silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": null,
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "kind",
+      "valid": false
+    },
+    {
+      "name": "kind unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": null,
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "kind",
+      "valid": false
+    },
+    {
+      "name": "requester explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": null,
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "requester is unresolved in this response."
+          ]
+        }
+      },
+      "field": "requester",
+      "valid": true
+    },
+    {
+      "name": "requester silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": null,
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "requester",
+      "valid": false
+    },
+    {
+      "name": "requester unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": null,
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "requester",
+      "valid": false
+    },
+    {
+      "name": "team explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": null,
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "team is unresolved in this response."
+          ]
+        }
+      },
+      "field": "team",
+      "valid": true
+    },
+    {
+      "name": "team silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": null,
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "team",
+      "valid": false
+    },
+    {
+      "name": "team unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": null,
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "team",
+      "valid": false
+    },
+    {
+      "name": "system explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": null,
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "system is unresolved in this response."
+          ]
+        }
+      },
+      "field": "system",
+      "valid": true
+    },
+    {
+      "name": "system silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": null,
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "system",
+      "valid": false
+    },
+    {
+      "name": "system unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": null,
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "system",
+      "valid": false
+    },
+    {
+      "name": "environment explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": null,
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "environment is unresolved in this response."
+          ]
+        }
+      },
+      "field": "environment",
+      "valid": true
+    },
+    {
+      "name": "environment silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": null,
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "environment",
+      "valid": false
+    },
+    {
+      "name": "environment unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": null,
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "environment",
+      "valid": false
+    },
+    {
+      "name": "permission explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": null,
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "permission is unresolved in this response."
+          ]
+        }
+      },
+      "field": "permission",
+      "valid": true
+    },
+    {
+      "name": "permission silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": null,
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "permission",
+      "valid": false
+    },
+    {
+      "name": "permission unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": null,
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "permission",
+      "valid": false
+    },
+    {
+      "name": "business_purpose explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": null,
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "business_purpose is unresolved in this response."
+          ]
+        }
+      },
+      "field": "business_purpose",
+      "valid": true
+    },
+    {
+      "name": "business_purpose silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": null,
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "business_purpose",
+      "valid": false
+    },
+    {
+      "name": "business_purpose unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": null,
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "business_purpose",
+      "valid": false
+    },
+    {
+      "name": "start_date explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": null,
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "start_date is unresolved in this response."
+          ]
+        }
+      },
+      "field": "start_date",
+      "valid": true
+    },
+    {
+      "name": "start_date silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": null,
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "start_date",
+      "valid": false
+    },
+    {
+      "name": "start_date unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": null,
+          "end_date": "2026-11-06",
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "start_date",
+      "valid": false
+    },
+    {
+      "name": "end_date explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": null,
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "end_date is unresolved in this response."
+          ]
+        }
+      },
+      "field": "end_date",
+      "valid": true
+    },
+    {
+      "name": "end_date silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": null,
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "end_date",
+      "valid": false
+    },
+    {
+      "name": "end_date unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": null,
+          "manager": "Priya Shah",
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "end_date",
+      "valid": false
+    },
+    {
+      "name": "manager explained",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": null,
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "manager is unresolved in this response."
+          ]
+        }
+      },
+      "field": "manager",
+      "valid": true
+    },
+    {
+      "name": "manager silent",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": null,
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": []
+        }
+      },
+      "field": "manager",
+      "valid": false
+    },
+    {
+      "name": "manager unrelated",
+      "reply": {
+        "response_source": "mock",
+        "status": "completed",
+        "extraction": {
+          "request_id": "IT-001",
+          "request_date": "2026-10-22",
+          "kind": "new",
+          "requester": "Maya Chen",
+          "team": "Analytics",
+          "system": "Atlas",
+          "environment": "staging",
+          "permission": "read",
+          "business_purpose": "Check dashboard event changes and compare totals against the spreadsheet.",
+          "start_date": "2026-10-23",
+          "end_date": "2026-11-06",
+          "manager": null,
+          "supporting_quotes": [
+            "Maya Chen from Analytics here, with request IT-001 dated 2026-10-22.",
+            "new read access on Atlas in staging from 2026-10-23 to 2026-11-06",
+            "My manager is Priya Shah.",
+            "checking the weekly conversion dashboard with the new event definition changes",
+            "check the totals against our spreadsheet"
+          ],
+          "issues": [
+            "An unrelated formatting note."
+          ]
+        }
+      },
+      "field": "manager",
+      "valid": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "response_source": "mock",
+  "status": "completed",
+  "extraction": {
+    "request_id": "IT-001"
+  }
+}
