@@ -1,0 +1,62 @@
+test_cli_clean_workflow_and_retry_command (test_application.ApplicationTests.test_cli_clean_workflow_and_retry_command) ... FAIL
+test_expired_claim_resume_and_snapshot_consistency (test_application.ApplicationTests.test_expired_claim_resume_and_snapshot_consistency) ... ERROR
+test_policy_corpus_and_paraphrase (test_application.ApplicationTests.test_policy_corpus_and_paraphrase) ... ERROR
+test_reuse_change_settings_omission_and_failed_retry (test_application.ApplicationTests.test_reuse_change_settings_omission_and_failed_retry) ... ERROR
+test_slow_and_overlapping_operators_latest_revision_wins (test_application.ApplicationTests.test_slow_and_overlapping_operators_latest_revision_wins) ... ERROR
+test_native_schema_request_and_response_gates (test_application.ProviderAdapterTests.test_native_schema_request_and_response_gates) ... ERROR
+
+======================================================================
+ERROR: test_expired_claim_resume_and_snapshot_consistency (test_application.ApplicationTests.test_expired_claim_resume_and_snapshot_consistency)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_application.py", line 120, in test_expired_claim_resume_and_snapshot_consistency
+    from access_intake.app import run_pending
+ModuleNotFoundError: No module named 'access_intake.app'
+
+======================================================================
+ERROR: test_policy_corpus_and_paraphrase (test_application.ApplicationTests.test_policy_corpus_and_paraphrase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_application.py", line 30, in test_policy_corpus_and_paraphrase
+    from access_intake.app import run_intake
+ModuleNotFoundError: No module named 'access_intake.app'
+
+======================================================================
+ERROR: test_reuse_change_settings_omission_and_failed_retry (test_application.ApplicationTests.test_reuse_change_settings_omission_and_failed_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_application.py", line 55, in test_reuse_change_settings_omission_and_failed_retry
+    from access_intake.app import run_intake
+ModuleNotFoundError: No module named 'access_intake.app'
+
+======================================================================
+ERROR: test_slow_and_overlapping_operators_latest_revision_wins (test_application.ApplicationTests.test_slow_and_overlapping_operators_latest_revision_wins)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_application.py", line 80, in test_slow_and_overlapping_operators_latest_revision_wins
+    from access_intake.app import run_intake
+ModuleNotFoundError: No module named 'access_intake.app'
+
+======================================================================
+ERROR: test_native_schema_request_and_response_gates (test_application.ProviderAdapterTests.test_native_schema_request_and_response_gates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_application.py", line 152, in test_native_schema_request_and_response_gates
+    from access_intake.openai_provider import OpenAIProvider
+ModuleNotFoundError: No module named 'access_intake.openai_provider'
+
+======================================================================
+FAIL: test_cli_clean_workflow_and_retry_command (test_application.ApplicationTests.test_cli_clean_workflow_and_retry_command)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_application.py", line 141, in test_cli_clean_workflow_and_retry_command
+    cli('intake', 'materials/requests', '--provider', 'mock')
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_application.py", line 139, in cli
+    self.assertEqual(result.returncode, 0, result.stderr)
+AssertionError: 1 != 0 : /home/user/ai-full-stack-it-access-requests/.venv/bin/python: No module named access_intake.__main__; 'access_intake' is a package and cannot be directly executed
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.026s
+
+FAILED (failures=1, errors=5)

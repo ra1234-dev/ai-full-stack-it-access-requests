@@ -3,6 +3,7 @@
 from copy import deepcopy
 import json
 import shlex
+from urllib.error import HTTPError
 from typing import Any
 
 from .exports import SourceDocument
@@ -40,6 +41,9 @@ def extract_document(document: SourceDocument, provider: Provider, *, attempt_id
         failure = validation.ValidationError("malformed_json", "Provider reply is not valid JSON.")
     except TimeoutError:
         failure = validation.ValidationError("timeout", "Provider request timed out; retry this document.")
+    except HTTPError as exc:
+        category = "rate_limit" if exc.code == 429 else "provider_unavailable" if exc.code >= 500 else "provider_error"
+        failure = validation.ValidationError(category, "Provider HTTP request failed; inspect configuration or retry later.")
     except Exception:
         # Never echo provider exceptions: headers, URLs and payloads may contain credentials.
         failure = validation.ValidationError("provider_error", "Provider request failed; retry this document.")

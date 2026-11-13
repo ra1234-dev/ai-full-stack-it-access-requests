@@ -1,0 +1,11 @@
+Observation: mock corpus fixture replies; current implementation and fixture hashes checked on each record.
+PASS: 21 source hashes, schemas, exact quote sets, current processing fingerprints, mock labels and matching queue records.
+{
+  "exact_matches": 231,
+  "denominator": 231,
+  "whole_document_matches": 21,
+  "documents": 21,
+  "route_matches": 21,
+  "interpretation_dependent_fields": 3,
+  "mismatches": []
+}

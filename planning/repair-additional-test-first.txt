@@ -1,0 +1,27 @@
+.......FF.
+======================================================================
+FAIL: test_rate_limits_and_unavailability_are_safe_and_retryable (test_application.TransportTests.test_rate_limits_and_unavailability_are_safe_and_retryable) (status=429)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_application.py", line 231, in test_rate_limits_and_unavailability_are_safe_and_retryable
+    self.assertEqual(result['error']['category'], category)
+AssertionError: 'provider_error' != 'rate_limit'
+- provider_error
++ rate_limit
+
+
+======================================================================
+FAIL: test_rate_limits_and_unavailability_are_safe_and_retryable (test_application.TransportTests.test_rate_limits_and_unavailability_are_safe_and_retryable) (status=503)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_application.py", line 231, in test_rate_limits_and_unavailability_are_safe_and_retryable
+    self.assertEqual(result['error']['category'], category)
+AssertionError: 'provider_error' != 'provider_unavailable'
+- provider_error
++ provider_unavailable
+
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.512s
+
+FAILED (failures=2)

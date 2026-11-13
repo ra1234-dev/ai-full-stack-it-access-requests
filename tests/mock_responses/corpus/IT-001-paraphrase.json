@@ -1,0 +1,28 @@
+{
+  "source_message": "Request IT-001 was filed on 2026-10-22 by Maya Chen in Analytics. For a new access window beginning 2026-10-23 and ending 2026-11-06, I need permission to read Atlas in staging. Priya Shah is my manager. Before the next reporting cycle, I will check the weekly conversion dashboard after event definition changes and compare its totals with our spreadsheet.",
+  "reply": {
+    "response_source": "mock",
+    "status": "completed",
+    "extraction": {
+      "request_id": "IT-001",
+      "request_date": "2026-10-22",
+      "kind": "new",
+      "requester": "Maya Chen",
+      "team": "Analytics",
+      "system": "Atlas",
+      "environment": "staging",
+      "permission": "read",
+      "business_purpose": "Review the weekly conversion dashboard after event changes and compare totals with the spreadsheet.",
+      "start_date": "2026-10-23",
+      "end_date": "2026-11-06",
+      "manager": "Priya Shah",
+      "supporting_quotes": [
+        "Request IT-001 was filed on 2026-10-22 by Maya Chen in Analytics.",
+        "For a new access window beginning 2026-10-23 and ending 2026-11-06, I need permission to read Atlas in staging.",
+        "Priya Shah is my manager.",
+        "check the weekly conversion dashboard after event definition changes and compare its totals with our spreadsheet."
+      ],
+      "issues": []
+    }
+  }
+}

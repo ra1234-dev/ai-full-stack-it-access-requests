@@ -206,3 +206,27 @@ Each row identifies the future build owner and its test/check. Cross-step refere
 | R-21/R-31, IT-014 date scalar representation | Steps 2/4 and T15 cover clarification and the issue, but retain-versus-null awaits Q-18 clarification. Do not silently choose an oracle or omit this case from scoring. |
 
 Coverage accounts for all 71 numbered requirements: R-01–R-68 have planned build steps and checks; R-69–R-71 remain explicitly outside the authorized work. Two narrower scalar decisions remain pending. This is proposed coverage, not evidence of completed implementation.
+
+## Resubmission implementation update — 2026-11-13
+
+The existing plan remains the design reference; its future-tense statements above
+are historical. The repair implements steps 4–9 in `routing.py`, `store.py`,
+`app.py`, `__main__.py`, `openai_provider.py` and `accuracy.py`. New acceptance tests
+and actual pre-implementation failures are recorded in `repair-test-first.txt`;
+HTTP failure classification was separately tested before its repair.
+
+The user accepted shared SQLite and agreed to the IT-006/IT-014 interpretations
+in the current captured conversation. Q-16/Q-18 are resolved for this build:
+read remains the legitimate permission; reversed explicit dates remain strings
+and trigger clarification. The accuracy denominator is therefore 231 with 3
+explicitly disclosed interpretation-dependent comparisons. Historical expectation
+fixtures keep their original alternative annotations for traceability.
+
+Differences from the proposed plan: policy-only refresh conservatively re-extracts;
+`refresh` uses the checked-in office policy without a `--policy` option; retry and
+refresh use current code/policy with stored provider settings. Resume is supported
+for the same implementation version; use refresh after a deployment. Export and
+shared SQLite require a POSIX local-host filesystem. Live model quality,
+2,000-message capacity and abrupt power-loss publication were not measured.
+No historical human validation, test-first commit sequence or final submission
+association is asserted by this repair. See `repair-decisions.md`.

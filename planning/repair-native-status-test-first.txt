@@ -1,0 +1,14 @@
+......E...
+======================================================================
+ERROR: test_native_schema_request_and_response_gates (test_application.ProviderAdapterTests.test_native_schema_request_and_response_gates) (category='malformed_envelope')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/user/ai-full-stack-it-access-requests/tests/test_application.py", line 180, in test_native_schema_request_and_response_gates
+    self.assertEqual(row['error']['category'], category)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.452s
+
+FAILED (errors=1)

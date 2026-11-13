@@ -88,3 +88,30 @@ class MockProvider:
         if not isinstance(name, str) or not name or name in {".", ".."} or "/" in name or "\\" in name:
             raise ValueError("Mock fixture name must be a nonempty filename stem")
         return json.loads((self._responses_dir / f"{name}.json").read_text(encoding="utf-8"))
+
+
+class FixtureProvider:
+    """Offline demonstration only: a reviewed message selects a saved mock reply.
+
+    Unknown or edited messages fail explicitly; this is not a language extractor.
+    Metadata-only changes can reuse a fixture if the decoded message is identical.
+    """
+    response_source = 'mock'
+
+    def __init__(self, responses_dir=None):
+        self.directory = Path(responses_dir or Path(__file__).resolve().parents[1] / 'tests/mock_responses/corpus')
+
+    def configuration(self):
+        import hashlib
+        digest = hashlib.sha256()
+        for path in sorted(self.directory.glob('*.json')):
+            digest.update(path.name.encode())
+            digest.update(path.read_bytes())
+        return {'provider': 'mock', 'fixtures_sha256': digest.hexdigest()}
+
+    def extract(self, request):
+        for path in sorted(self.directory.glob('*.json')):
+            fixture = json.loads(path.read_text(encoding='utf-8'))
+            if fixture['source_message'] == request['message']:
+                return deepcopy(fixture['reply'])
+        raise ValueError('No saved mock response for this message. Use the live provider for fresh input.')
