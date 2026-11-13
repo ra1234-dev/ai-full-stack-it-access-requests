@@ -1,0 +1,42 @@
+Current-state audit: installed .venv, API_KEY unset, mock-only application evidence.
+Commands below are run from the repository root; no live provider request is made.
+
+$ env -u API_KEY git rev-parse HEAD
+fcd9c8179111d399fb660ed5fa61356b448bf258
+
+exit_code=0
+
+$ env -u API_KEY .venv/bin/python --version
+Python 3.12.3
+
+exit_code=0
+
+$ env -u API_KEY rg --files access_intake
+access_intake/exports.py
+access_intake/validation.py
+access_intake/extraction.py
+access_intake/__init__.py
+access_intake/providers.py
+
+exit_code=0
+
+$ env -u API_KEY .venv/bin/python -m access_intake retry IT-001.json
+
+/home/user/ai-full-stack-it-access-requests/.venv/bin/python: No module named access_intake.__main__; 'access_intake' is a package and cannot be directly executed
+exit_code=1
+
+$ env -u API_KEY .venv/bin/python -c 'from pathlib import Path; paths=['"'"'deliverables/extractions.jsonl'"'"','"'"'deliverables/queue.json'"'"','"'"'deliverables/accuracy.md'"'"','"'"'deliverables/request-evidence.json'"'"','"'"'deliverables/verification.md'"'"','"'"'access_intake/__main__.py'"'"']; [print(f'"'"'{p}: exists={Path(p).exists()}'"'"') for p in paths]'
+deliverables/extractions.jsonl: exists=False
+deliverables/queue.json: exists=False
+deliverables/accuracy.md: exists=False
+deliverables/request-evidence.json: exists=False
+deliverables/verification.md: exists=False
+access_intake/__main__.py: exists=False
+
+exit_code=0
+
+$ env -u API_KEY entire status --json
+{"enabled":true,"agents":["Codex"],"active_sessions":[{"agent":"Codex","session_id":"01a1d56b-d324-7713-a79b-6257593c84a9","worktree_path":"/home/user/ai-full-stack-it-access-requests","branch":"main","model":"gpt-6.1-sol","status":"exited"},{"agent":"Codex","session_id":"01a1d5d5-7235-73f3-9330-4c22d6efee51","worktree_path":"/home/user/ai-full-stack-it-access-requests","branch":"main","model":"gpt-6.1-sol","status":"exited"}],"agent_help":"entire agent-help","checkpoint_sync_remote":"origin","checkpoint_sync_remote_source":"default","checkpoint_push_policy":"automatic"}
+
+exit_code=0
+

@@ -28,6 +28,6 @@ test_t07_refusal_blocks_even_plausible_extraction_before_validation (test_valida
 test_t08_incomplete_blocks_truncated_and_complete_text_before_validation (test_validation.ReplyValidationContract.test_t08_incomplete_blocks_truncated_and_complete_text_before_validation) ... ok
 
 ----------------------------------------------------------------------
-Ran 28 tests in 0.135s
+Ran 28 tests in 0.144s
 
 OK
