@@ -1,0 +1,15 @@
+Ask Codex to read the four files and draft `planning/spec.md`. Your request says:
+   - one numbered requirement per line, `R-01`, `R-02`, ..., each one testable sentence;
+   - for each, the file and section it comes from, with the exact words quoted;
+   - for each, how it will be checked: which test, which file to inspect, or which command to run;
+   - nothing invented: a requirement the files do not state is not in the spec.
+
+   <details><summary>An example request, if you want a starting point</summary>
+
+   ```text
+   Read CHALLENGE.md, docs/requirements.md, materials/office-policy.md and snapshot.schema.json.
+   Write planning/spec.md: a table with columns ID, Requirement, Source, Check. One row per
+   requirement, IDs R-01 onward. Requirement is one sentence that a test or an inspection can
+   check. Source names the file and section and quotes the exact words. Check says how we will
+   know it is met: the test, the file to inspect, or the command. Do not add anything the files
+   do not say. Do not write any code.
