@@ -1,0 +1,81 @@
+{
+  "cli_version": "0.13.3",
+  "checkpoint_id": "01M7AYPFKAQ12DF06XD931W4VS",
+  "session_id": "01a1d5d5-7235-73f3-9330-4c22d6efee51",
+  "strategy": "manual-commit",
+  "created_at": "2026-11-13T17:18:52.676474176Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "tests/expectations/IT-001-paraphrase.json",
+    "tests/expectations/IT-001.json",
+    "tests/expectations/IT-002.json",
+    "tests/expectations/IT-003.json",
+    "tests/expectations/IT-004.json",
+    "tests/expectations/IT-005.json",
+    "tests/expectations/IT-006.json",
+    "tests/expectations/IT-007.json",
+    "tests/expectations/IT-008.json",
+    "tests/expectations/IT-009.json",
+    "tests/expectations/IT-010.json",
+    "tests/expectations/IT-011.json",
+    "tests/expectations/IT-012.json",
+    "tests/expectations/IT-013.json",
+    "tests/expectations/IT-014.json",
+    "tests/expectations/IT-015.json",
+    "tests/expectations/IT-016.json",
+    "tests/expectations/IT-017.json",
+    "tests/expectations/IT-018.json",
+    "tests/expectations/IT-019.json",
+    "tests/expectations/IT-020.json",
+    "tests/fixtures/exports/IT-001-paraphrase-200.json",
+    "tests/fixtures/exports/IT-001-paraphrase.json",
+    "tests/mock_responses/paraphrase-001.json",
+    "tests/mock_responses/paraphrase-200.json",
+    "tests/test_exports.py"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6.1-sol",
+  "turn_id": "4a9559e50391",
+  "checkpoint_transcript_start": 91,
+  "transcript_lines_at_start": 91,
+  "compact_transcript_start": 27,
+  "token_usage": {
+    "input_tokens": 14223,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 308608,
+    "output_tokens": 8915,
+    "api_call_count": 6
+  },
+  "session_token_usage": {
+    "input_tokens": 45176,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 558464,
+    "output_tokens": 13201,
+    "api_call_count": 15
+  },
+  "redaction": {
+    "replacements": 0,
+    "layers": {
+      "betterleaks": 0,
+      "connection_string": 0,
+      "credential_key": 0,
+      "credential_value": 0,
+      "credentialed_uri": 0,
+      "entropy": 0,
+      "key_context": 0,
+      "pii": 0,
+      "provider_token": 0,
+      "shell_stdin": 0
+    },
+    "pii": {
+      "EMAIL": 0,
+      "IP": 0,
+      "PHONE": 0
+    }
+  },
+  "session_metrics": {
+    "turn_count": 3
+  }
+}
